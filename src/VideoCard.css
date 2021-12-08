@@ -1,0 +1,39 @@
+.video-card{
+    /* background-color: rgb(91, 119, 119); */
+    width: 53rem;
+    height: 35.688rem;
+    margin: auto;
+    border: 1px solid rgb(230, 220, 220);
+    display: flex;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.video-section{
+    height: 100%;
+    width: 32rem;
+    border: 1px solid rgb(230, 220, 220);
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.like-button{
+    cursor: pointer;
+    width: 31.5rem;
+    text-align: end;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.like-button span{
+    color : rgb(255, 0, 0);
+}
